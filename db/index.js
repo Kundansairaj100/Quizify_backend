@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 // Connecting Mongoose
-mongoose.connect("mongodb+srv://kundan:KUNDANgasly10*@cluster0.uxlratl.mongodb.net/quizify");
+mongoose.connect("mongodb+srv://kundan:username:<password>@cluster0.uxlratl.mongodb.net/quizify");
 // Schemas
 const TeacherSchema = mongoose.Schema({
     username: String,
